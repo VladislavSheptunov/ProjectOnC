@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\users\user\documents\visual studio 2017\projects\testproject\testproject\main.cpp(46): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  d:\users\user\documents\visual studio 2017\projects\testproject\testproject\main.cpp(46): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  d:\users\user\documents\visual studio 2017\projects\testproject\testproject\main.cpp(46): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+  d:\users\user\documents\visual studio 2017\projects\testproject\testproject\main.cpp(46): note: этот аргумент используется в качестве размера буфера
+  TestProject.vcxproj -> D:\Users\User\documents\visual studio 2017\Projects\TestProject\Debug\TestProject.exe
+  TestProject.vcxproj -> D:\Users\User\documents\visual studio 2017\Projects\TestProject\Debug\TestProject.pdb (Partial PDB)
