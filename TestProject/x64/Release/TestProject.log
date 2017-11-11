@@ -1,0 +1,9 @@
+﻿D:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: промежуточный каталог (x64\Release\) содержит файлы, которые используются совместно с другим проектом (TestProject.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+main.cpp(48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+main.cpp(93): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+main.cpp(112): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  TestProject.vcxproj -> D:\ProjectC\ProjectOnC\x64\Release\CalcCRC.exe
