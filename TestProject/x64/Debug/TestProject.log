@@ -1,4 +1,6 @@
 ﻿  main.cpp
-d:\users\user\documents\visual studio 2017\projects\testproject\testproject\main.cpp(98): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  TestProject.vcxproj -> D:\Users\User\documents\visual studio 2017\Projects\TestProject\x64\Debug\TestProject.exe
-  TestProject.vcxproj -> D:\Users\User\documents\visual studio 2017\Projects\TestProject\x64\Debug\TestProject.pdb (Partial PDB)
+d:\projectc\projectonc\testproject\main.cpp(48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+d:\projectc\projectonc\testproject\main.cpp(93): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+d:\projectc\projectonc\testproject\main.cpp(112): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  TestProject.vcxproj -> D:\ProjectC\ProjectOnC\x64\Debug\TestProject.exe
+  TestProject.vcxproj -> D:\ProjectC\ProjectOnC\x64\Debug\TestProject.pdb (Partial PDB)
