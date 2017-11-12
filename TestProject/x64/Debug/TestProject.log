@@ -1,7 +1,0 @@
-﻿D:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (TestProject.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  main.cpp
-d:\projectc\projectonc\testproject\main.cpp(48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-d:\projectc\projectonc\testproject\main.cpp(93): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-d:\projectc\projectonc\testproject\main.cpp(112): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  TestProject.vcxproj -> D:\ProjectC\ProjectOnC\x64\Debug\CalcCRC.exe
-  TestProject.vcxproj -> D:\ProjectC\ProjectOnC\x64\Debug\CalcCRC.pdb (Partial PDB)
