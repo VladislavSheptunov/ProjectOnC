@@ -1,0 +1,4 @@
+﻿  CalcCRC.cpp
+d:\projectc\projectonc\calccrc\calccrc\calccrc.cpp(132): warning C4018: <: несоответствие типов со знаком и без знака
+  CalcCRC.vcxproj -> D:\ProjectC\ProjectOnC\CalcCRC\Debug\CalcCRC.exe
+  CalcCRC.vcxproj -> D:\ProjectC\ProjectOnC\CalcCRC\Debug\CalcCRC.pdb (Partial PDB)

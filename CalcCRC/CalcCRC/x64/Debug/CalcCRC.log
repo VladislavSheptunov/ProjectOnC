@@ -1,0 +1,6 @@
+﻿  CalcCRC.cpp
+d:\projectc\projectonc\calccrc\calccrc\calccrc.cpp(52): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+d:\projectc\projectonc\calccrc\calccrc\calccrc.cpp(97): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+d:\projectc\projectonc\calccrc\calccrc\calccrc.cpp(116): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  CalcCRC.vcxproj -> D:\ProjectC\ProjectOnC\CalcCRC\x64\Debug\CalcCRC.exe
+  CalcCRC.vcxproj -> D:\ProjectC\ProjectOnC\CalcCRC\x64\Debug\CalcCRC.pdb (Partial PDB)
