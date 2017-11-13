@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  CalcCRC.cpp
+CalcCRC.cpp(52): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+CalcCRC.cpp(97): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+CalcCRC.cpp(116): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  CalcCRC.vcxproj -> D:\Learning\ProjectOnC\CalcCRC\x64\Release\CalcCRC.exe
+  CalcCRC.vcxproj -> D:\Learning\ProjectOnC\CalcCRC\x64\Release\CalcCRC.pdb (Full PDB)

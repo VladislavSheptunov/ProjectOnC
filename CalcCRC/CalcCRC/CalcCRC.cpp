@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 #define SIZEREQUEST 256
-#define Range(a,x,b) (x>=a)&&(x<=b)
+#define Range(a,x,b) (x >= a) && ( x <= b)
 #define ItNUMinHEX(x) (	(x >=0x30) && (x <=0x39) || \
 						(x >=0x41) && (x <=0x46) || \
 						(x >=0x61) && (x <=0x66) )
