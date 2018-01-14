@@ -52,6 +52,10 @@ void Task_fourFrm::CreateGUIControls()
 	//Add the custom code before or after the blocks
 	////GUI Items Creation Start
 
+	wxInitAllImageHandlers();   //Initialize graphic format handlers
+
+	WxStaticBitmap1 = new wxStaticBitmap(this, ID_WXSTATICBITMAP1, wxNullBitmap, wxPoint(8, 8), wxSize(586, 499) );
+
 	WxEdit4 = new wxTextCtrl(this, ID_WXEDIT4, _("Result"), wxPoint(610, 263), wxSize(121, 32), 0, wxDefaultValidator, _("WxEdit4"));
 
 	WxStaticText4 = new wxStaticText(this, ID_WXSTATICTEXT4, _("Coefficient A"), wxPoint(618, 186), wxDefaultSize, 0, _("WxStaticText4"));
@@ -72,7 +76,7 @@ void Task_fourFrm::CreateGUIControls()
 
 	SetTitle(_("Task_four"));
 	SetIcon(wxNullIcon);
-	SetSize(8,8,800,600);
+	SetSize(13,-16,798,600);
 	Center();
 	
 	////GUI Items Creation End
@@ -101,7 +105,13 @@ void Task_fourFrm::WxButton1Click(wxCommandEvent& event)
 	W  = 180.0;
 	bool flag = true;
 	
-	if(WxEdit3->GetValue().ToDouble(&coeff_a) == false){
+	double cement[150];
+	double water[150];
+	
+	for (int i = 0; i <= 50; i++)
+	   water[i] = i + 150;
+    	
+	if(WxEdit3->GetValue().ToDouble(&coeff_a) == false || (coeff_a != 0.55 && coeff_a != 0.65 && coeff_a != 0.6)){
         WxEdit4->SetValue("Invalid parameters!");
         flag = false;
     }
@@ -127,10 +137,41 @@ void Task_fourFrm::WxButton1Click(wxCommandEvent& event)
         
         // Формула Скрамтаема 
         CW = ((R_twenty_eight * 10) / (coeff_a * Rc * 10)) + 0.5;
-        
+                
         C = W * CW;
-        WxEdit4->SetValue(wxString::Format(wxT("%lf"),C));
+        //WxEdit4->SetValue(wxString::Format(wxT("%lf"),C));
+        WxEdit4->SetValue("Value is OK!");
+        
+        	
+	wxClientDC dc(WxStaticBitmap1);
+        
+    dc.SetPen(wxPen(*wxBLACK, 2, wxSOLID));
+        
+    dc.DrawRectangle(40, 40, 500, 300);
+                
+    dc.SetPen(wxPen(*wxBLACK, 1, wxSOLID));
+        
+    wxFont font(8, wxFONTFAMILY_SWISS, wxNORMAL, wxNORMAL);
+    dc.SetFont(font);
+    dc.SetTextForeground(*wxBLACK);
+    dc.SetBackgroundMode(wxTRANSPARENT);
+    
+   for(int i = 1; i <= 5; i++){
+       dc.DrawLine(40, 40 + (i * 50), 535, 40 + (i * 50));
+       dc.DrawText(wxString::Format(_("%i"),200 - i*10 ), 10, 40 + (i * 50));
+    
     }
+    for(int i = 0; i <= 10; i++){
+        dc.DrawLine(40 + (i * 50), 40, 40 + (i * 50),300);
+        //dc.DrawText(wxString::Format(_("%i"),0 +  ), 10, 40 + (i * 50));
+    }
+    
+    for(int i = 0; i <= 50; i++) {
+        cement[i] = water[i] * CW;
+        dc.DrawCircle(40 + ((int)water[i] - (int)water[0]) * 50, 40 + ((int)cement[i] - (int)cement[0]), 5);
+
+    }
+    }    
 }
 
 /*

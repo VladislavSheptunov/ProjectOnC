@@ -1,11 +1,11 @@
 object frmNewForm: TfrmNewForm
-  Left = 8
-  Top = 8
+  Left = 13
+  Top = -16
   AutoScroll = False
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Task_four'
   ClientHeight = 561
-  ClientWidth = 784
+  ClientWidth = 782
   Color = clAppWorkSpace
   OldCreateOrder = True
   PopupMenu = DesignerPopup.Owner
@@ -182,8 +182,8 @@ object frmNewForm: TfrmNewForm
   object WxStaticText1: TWxStaticText
     Left = 613
     Top = 23
-    Width = 113
-    Height = 26
+    Width = 62
+    Height = 19
     Caption = 'Enter value'
     TabOrder = 4
     Wx_BGColor = clBlack
@@ -333,6 +333,35 @@ object frmNewForm: TfrmNewForm
     Wx_MaxLength = 0
     Wx_PaneCaption = 'WxEdit4'
     Wx_PaneName = 'WxEdit4_Pane'
+    Wx_Aui_Dock_Direction = wxAUI_DOCK_NONE
+    Wx_Aui_Dockable_Direction = []
+    Wx_Aui_Pane_Style = []
+    Wx_Aui_Pane_Buttons = []
+    Wx_BestSize_Height = 0
+    Wx_BestSize_Width = 0
+    Wx_MinSize_Height = 0
+    Wx_MinSize_Width = 0
+    Wx_MaxSize_Height = 0
+    Wx_MaxSize_Width = 0
+    Wx_Floating_Height = 0
+    Wx_Floating_Width = 0
+    Wx_Floating_X_Pos = 0
+    Wx_Floating_Y_Pos = 0
+  end
+  object WxStaticBitmap1: TWxStaticBitmap
+    Left = 8
+    Top = 8
+    Width = 586
+    Height = 499
+    TabOrder = 9
+    Picture.Data = {07544269746D617000000000}
+    Wx_Class = 'wxStaticBitmap'
+    Wx_ControlOrientation = wxControlVertical
+    Wx_GeneralStyle = []
+    Wx_IDName = 'ID_WXSTATICBITMAP1'
+    Wx_IDValue = 1013
+    Wx_PaneCaption = 'WxStaticBitmap1'
+    Wx_PaneName = 'WxStaticBitmap1_Pane'
     Wx_Aui_Dock_Direction = wxAUI_DOCK_NONE
     Wx_Aui_Dockable_Direction = []
     Wx_Aui_Pane_Style = []

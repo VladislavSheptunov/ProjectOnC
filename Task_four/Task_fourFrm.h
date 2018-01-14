@@ -26,6 +26,7 @@
 //Header Include Start and Header Include End.
 //wxDev-C++ designer will remove them. Add custom headers after the block.
 ////Header Include Start
+#include <wx/statbmp.h>
 #include <wx/stattext.h>
 #include <wx/textctrl.h>
 #include <wx/button.h>
@@ -38,6 +39,7 @@
 
 #include "string.h"
 #include <math.h>
+//#include <graphics.h>
 
 class Task_fourFrm : public wxFrame
 {
@@ -67,6 +69,7 @@ class Task_fourFrm : public wxFrame
 		//GUI Control Declaration Start and GUI Control Declaration End.
 		//wxDev-C++ will remove them. Add custom code after the block.
 		////GUI Control Declaration Start
+		wxStaticBitmap *WxStaticBitmap1;
 		wxTextCtrl *WxEdit4;
 		wxStaticText *WxStaticText4;
 		wxStaticText *WxStaticText3;
@@ -86,6 +89,7 @@ class Task_fourFrm : public wxFrame
 		enum
 		{
 			////GUI Enum Control ID Start
+			ID_WXSTATICBITMAP1 = 1013,
 			ID_WXEDIT4 = 1012,
 			ID_WXSTATICTEXT4 = 1010,
 			ID_WXSTATICTEXT3 = 1009,
