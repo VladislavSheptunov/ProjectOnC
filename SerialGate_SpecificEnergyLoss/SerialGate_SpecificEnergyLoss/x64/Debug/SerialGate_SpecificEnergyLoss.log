@@ -1,3 +1,19 @@
 ﻿  SpecificEnergyLoss.cpp
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(77): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note:  см. объявление "scanf"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note:  см. объявление "scanf"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(82): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note:  см. объявление "scanf"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(83): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(271): note:  см. объявление "strncat"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(159): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(212): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note:  см. объявление "scanf"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(214): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note:  см. объявление "scanf"
+d:\learning\projectonc\serialgate_specificenergyloss\serialgate_specificenergyloss\specificenergyloss.cpp(129): warning C4715: SendReceiveCMD_GET_ENERGY: значение возвращается не при всех путях выполнения
+     ╤ючфрхЄё  сшсышюЄхър D:\Learning\ProjectOnC\SerialGate_SpecificEnergyLoss\x64\Debug\SerialGate_SpecificEnergyLoss.lib ш юс·хъЄ D:\Learning\ProjectOnC\SerialGate_SpecificEnergyLoss\x64\Debug\SerialGate_SpecificEnergyLoss.exp
   SerialGate_SpecificEnergyLoss.vcxproj -> D:\Learning\ProjectOnC\SerialGate_SpecificEnergyLoss\x64\Debug\SerialGate_SpecificEnergyLoss.exe
   SerialGate_SpecificEnergyLoss.vcxproj -> D:\Learning\ProjectOnC\SerialGate_SpecificEnergyLoss\x64\Debug\SerialGate_SpecificEnergyLoss.pdb (Partial PDB)
